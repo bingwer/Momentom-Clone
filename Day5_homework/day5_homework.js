@@ -4,7 +4,7 @@
 const NINE_HOURS_MILLISECONDS = 32400000;
 
 const clockContainer = document.querySelector(".dDay");
-const dDay = clockContainer.querySelector("h3");
+const dDay = clockContainer.querySelector(".clock");
 
 function getTime() {
   // Don't delete this.
@@ -17,9 +17,9 @@ function getTime() {
   );
   const getMin = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
   const getSec = Math.floor((difference % (1000 * 60)) / 1000);
-  dDay.innerHTML = `${getDay}d ${gethour < 10 ? `0${gethour}` : gethour}h ${
+  dDay.innerHTML = `${getDay}D ${gethour < 10 ? `0${gethour}` : gethour}H ${
     getMin < 10 ? `0${getMin}` : getMin
-  }m ${getSec < 10 ? `0${getSec}` : getSec}s`;
+  }M ${getSec < 10 ? `0${getSec}` : getSec}S`;
 }
 
 function init() {
