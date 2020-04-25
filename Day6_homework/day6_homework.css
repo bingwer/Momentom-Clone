@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Lemon", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e2e2e;
+  opacity: 0.7;
+  color: white;
+  line-height: 180px;
+}
+
+.subject {
+  font-size: 40px;
+}
+
+.js-select {
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 20px;
+  font-family: "Lemon", cursive;
+}
+
+.js-select:focus {
+  outline: none;
+}
