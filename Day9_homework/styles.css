@@ -1,0 +1,46 @@
+td {
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.number,
+.equal {
+  background-color: #363439;
+}
+
+.operator {
+  background-color: #fe8e00;
+}
+
+.reset,
+.back {
+  background-color: #a7aab1;
+}
+
+.number,
+.operator,
+.equal,
+.reset,
+.back {
+  width: 80px;
+  height: 60px;
+}
+
+td:active {
+  opacity: 0.5;
+}
+
+.result {
+  color: black;
+  font-size: 25px;
+}
+
+.resultTd {
+  padding-right: 10px;
+  text-align: right;
+}
