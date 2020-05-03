@@ -52,7 +52,6 @@ function equalCalculate() {
   const oprationValue = operate();
   result.innerText = oprationValue;
   firstNum = oprationValue;
-  console.log(firstNum, secondNum, selectedOperator);
 }
 
 function numberClick(event) {

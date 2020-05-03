@@ -1,0 +1,52 @@
+.js-toDoForm {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  opacity: 0;
+  display: none;
+  transition: opacity 1s linear;
+}
+
+.js-toDoForm span {
+  font-size: 40px;
+}
+
+.js-toDoForm input {
+  margin-top: 10px;
+  font-size: 30px;
+  width: 580px;
+  border-bottom: 2px solid white;
+}
+
+.js-toDoForm input::placeholder {
+  color: white;
+}
+
+.js-toDoList {
+  margin-top: -10px;
+  list-style: none;
+  font-size: 30px;
+}
+
+#today {
+  margin-top: 80px;
+  font-size: 25px;
+  display: none;
+}
+
+.doList {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.delBtn {
+  margin-left: 5px;
+  background-color: inherit;
+  border: none;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+}

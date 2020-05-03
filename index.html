@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Something</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>Momentom Clone</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <meta charset="utf-8" />
   </head>
   <body>
-    <h1>This works!</h1>
-    <script src="index.js"></script>
+    <main class="main">
+      <div class="container">
+        <div class="js-clock">
+          <span class="js-clock__clock">00:00</span>
+        </div>
+        <div class="user">
+          <form class="js-form form">
+            <input
+              class="name-input"
+              type="text"
+              placeholder="What is your name?"
+              style="text-align: center;"
+            />
+          </form>
+          <span class="js-greetings"></span>
+        </div>
+        <div class="todoContainer">
+          <form class="js-toDoForm" id="todoForm">
+            <span>What is your main focus for today?</span>
+            <input type="text" style="text-align: center;" />
+          </form>
+          <h1 id="today">TODAY</h1>
+          <ul class="js-toDoList"></ul>
+        </div>
+        <div class="weather__container">
+          <div class="weatherImg" id="weatherImg"></div>
+          <span class="js-weather"></span>
+        </div>
+      </div>
+    </main>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>
