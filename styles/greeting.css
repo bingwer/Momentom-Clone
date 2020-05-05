@@ -11,11 +11,25 @@
   transition: opacity 0.5s linear;
 }
 
+.nameChangeBtn {
+  margin-top: 7px;
+  margin-left: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
 .name-input {
   display: none;
   font-size: 50px;
   border-bottom: 2px solid white;
   width: 480px;
+  transition: transform 0.1s linear;
+}
+
+.user:hover > .nameChangeBtn {
+  opacity: 1;
 }
 
 .name-input::placeholder {

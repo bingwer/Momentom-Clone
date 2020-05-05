@@ -36,6 +36,11 @@ function checkToDo() {
   } else {
     localStorage.setItem(TODOS_CK, "checked");
     cboxBorder.style.opacity = 1;
+    const compliment = document.getElementById("compliment");
+    compliment.style.opacity = 1;
+    setTimeout(function () {
+      compliment.style.opacity = 0;
+    }, 600);
   }
 }
 
