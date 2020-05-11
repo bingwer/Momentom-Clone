@@ -71,6 +71,8 @@ function paintToDo(text) {
   span.classList.add("todo");
   span.innerText = text;
   li.classList.add("doList");
+  cboxBorder.style.opacity = 0;
+  delBtn.style.opacity = 0;
   li.addEventListener("mouseover", function () {
     cboxBorder.style.opacity = 1;
     delBtn.style.opacity = 1;

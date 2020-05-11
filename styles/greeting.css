@@ -8,7 +8,7 @@
 
 .js-greetings {
   opacity: 0;
-  transition: opacity 0.5s linear;
+  transition: opacity 0.3s linear;
 }
 
 .nameChangeBtn {
@@ -30,6 +30,11 @@
 
 .user:hover > .nameChangeBtn {
   opacity: 1;
+}
+
+.nameChangeBtn:hover {
+  background-color: #848484;
+  border-radius: 50%;
 }
 
 .name-input::placeholder {
